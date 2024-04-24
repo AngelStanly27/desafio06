@@ -1,0 +1,136 @@
+body{
+  background-color: #1F2023;
+  margin-right: 200px;
+  margin-left: 200px;
+  
+  
+}
+h1{
+  color: #E8EAED;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  border-top: 10px solid  #4D6D63;
+  border-bottom: 10px solid  #4D6D63;
+  border-left: 10px solid #1F2023; 
+  border-right: 10px solid #1F2023; 
+  padding: 20px;
+  
+  
+}
+
+legend{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    background-color: #4D6D63;
+    color: white;
+    margin: 3px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+fieldset{
+  background-color: #A6C1B9;
+}
+form{}
+.contenedor {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+.inp{
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+
+select{
+ 
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.sexo{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.puntos{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.puntos div {
+  background: #A6C1B9;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  border-radius: 50%;
+
+}
+
+textarea{
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+p{font-family: "Poppins", sans-serif;
+  font-weight: 100;}
+
+label{
+  font-family: "Poppins", sans-serif;
+  
+}
+.txt{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  text-align: justify;
+ 
+} 
+.lbl{
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.cont{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+footer{
+  margin-top: 35px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+  
+a.enlace:link{ 
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: #2B3D37;
+  font-size: 22px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 400;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 4px;
+  text-decoration: none;
+ 
+}
+a.enlace:visited{
+  color: white;}
+a.enlace:hover{
+ background: #A6C1B9;
+}

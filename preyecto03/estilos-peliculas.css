@@ -1,0 +1,177 @@
+#contenido {
+  width: 100%;
+  height: 220%;
+  background-size: cover; 
+  background-image: url('images/fondo.webp');
+  background-position: center;}
+#bdy{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+h1{
+  color: #9b00a6;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 80px;
+  
+  
+  
+}
+
+legend{
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: small-caps;
+  background-color: #9b00a6;
+  color: rgb(54, 3, 3);
+  box-shadow: 5px 5px 5px rgb(246, 117, 251);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.foto1{
+  background-image: url('images/foto1.webp');
+  background-size: cover; 
+  width: 75%;
+}
+.foto2{
+  background-image: url('images/foto2.webp');
+  background-size: cover; 
+  width:  50%;
+}
+.foto3{
+  background-image: url('images/foto3.webp');
+  background-size: cover; 
+  width: 50%;
+}
+.puntos{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.contenedor {
+  display:flex;
+  background-size: cover; 
+  width: 100%;
+  height: 50%;
+  margin-left: 20px;
+  
+}
+.inp{
+  margin-right: 100px;
+  background: transparent;
+  margin-left: 80px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+
+select{
+  font-family: "Galindo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgb(66, 0, 172);
+  background-color: black;
+}
+#x{
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.sexo{
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+
+textarea{
+  font-family: "Galindo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+}
+p{font-family: "Galindo", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+label{
+  font-family: "Galindo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.txt{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: darkblue;
+  text-shadow: 0 0 5px  rgb(163, 103, 103);
+  font-size: 20px;
+  text-align: justify;
+ 
+} 
+.lbl{
+  font-family: "Galindo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.cont{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+footer{
+  margin-top: 35px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+  
+a.enlace:link{ 
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: #2B3D37;
+  font-size: 22px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 400;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 4px;
+  text-decoration: none;
+ 
+}
+a.enlace:visited{
+  color: white;}
+a.enlace:hover{
+ background: #A6C1B9;
+}
+.deportes{
+  display: flex;
+  justify-content: space-evenly;
+}
+#dep{
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px red;
+}
